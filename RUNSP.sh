@@ -15,6 +15,6 @@ echo ""
 echo ""
 exit 1
 fi
-./tg -s FAEDER.lua
+./tg -s SUPER.lua
 fi
 
