@@ -62,7 +62,7 @@ while(true) do
 rm -fr ../.telegram-cli
 echo -e ""
 echo -e ""
-./tg -s ./SUPER.lua $@ --bot=$token
+./tg -s ./SUPESP.lua $@ --bot=$token
 done
 ]])  
 file:close()  
@@ -75,7 +75,7 @@ screen ./RUNSP.sh
 done
 ]])  
 file:close() 
-os.execute('./FA')
+os.execute('./SP')
 end 
 create_config_auto()
 local serialize_to_file = function(data, file, uglify)  
