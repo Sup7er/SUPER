@@ -1,7 +1,4 @@
 -- Welcom to file the best source in the telegram
- -- all the file by faeder dx @pro_c9
- -- join in chennel @faeter_ch 
- -- join in chennel @team_faeder
 --*********Serpent*******--
 serpent = require("serpent")
 --***********Lgi*********--
@@ -62,7 +59,7 @@ while(true) do
 rm -fr ../.telegram-cli
 echo -e ""
 echo -e ""
-./tg -s ./SUPESP.lua $@ --bot=$token
+./tg -s ./SUPER.lua $@ --bot=$token
 done
 ]])  
 file:close()  
